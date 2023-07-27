@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Roboto:wght@400;500&display=swap');
+
+body{
+    min-width: 490px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    /* background-color: mediumturquoise; */
+    background-image: url(./alarmClock.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    max-height: 30vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.alarm-set div{
+    display: inline-block;
+}
+input{
+    margin: 0.12rem;
+    text-align: center;
+    width: 3rem;
+    border: 1px solid #000000;
+}
+/* button{
+    margin: 0.12rem;
+    text-align: center;
+    width: contain;
+    padding: 0.2em;
+    border: 1px solid #000000;
+} */
+input{
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 10px;
+    width: 4.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 13px;
+  }
+
+  select {
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 10px;
+    width: 4.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 13px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+    cursor: pointer;
+    border-radius: 13px;
+    margin-right: 10px;
+    width: 4.5rem;
+    border: 1px solid #ffffff;
+  }
+  
+#clockDisplay{
+    font-size: 2.5em;
+    font-weight: 550;
+    text-align: center;
+}
+
+.alarms-list {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#alarmList{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 10px;
+    justify-content: space-between;
+}
+#alarmList li{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    font-size: 1.25rem;
+}
+#alarmList button{
+     margin-left: 30px;
+     padding: 3px; 
+     background: transparent;
+     border: 1px solid black;
+     border-radius: 5px;
+     color: #ffffff;
+}
